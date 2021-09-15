@@ -41,12 +41,18 @@ The version history for this app will be organized in a four-digit **W.X.Y.Z** s
 ### Version History
 
 #### v 0.1.0.0 | 15 September 2021 | commit 92163fe10147168bc80cdc4324f357af5efdbd1b | Initial Commit
-* Initialize project using Create React App (CLI: `npx create-react-app`)
+* Initialize project using Create React App (CLI: `npx create-react-app`).
 
-#### v 0.1.0.0 | 15 September 2021 | commit -- | Current Version
+#### v 0.1.0.1 | 15 September 2021 | commit c497325e2c7533b0eef4ba726d4f8f756cfc1f3f | Current Version
 * Delete unnecessary files and code from *Create React App* boilerplate.
 * Add a remote add origin at `https://github.com/mhsmith321/subnautica-bz-resource-calculator-redux.git`.
 * Copied boilerplate code for this `README.md` file from the old version.
+
+#### v 0.1.0.1 | 15 September 2021 | commit -- | Current Version
+* Installed Redux Toolkit (CLI: `npm install @reduxjs/toolkit`).
+* Installed react-redux (CLI: `npm install react-redux`).
+* Added a directory `/src/redux` to hold *Redux* files.
+* Initialized a `store.js` file in the `/src/redux` directory.
 
 [Back to Top](#top)
 
