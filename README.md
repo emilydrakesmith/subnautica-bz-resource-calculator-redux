@@ -43,16 +43,23 @@ The version history for this app will be organized in a four-digit **W.X.Y.Z** s
 #### v 0.1.0.0 | 15 September 2021 | commit 92163fe10147168bc80cdc4324f357af5efdbd1b | Initial Commit
 * Initialize project using Create React App (CLI: `npx create-react-app`).
 
-#### v 0.1.0.1 | 15 September 2021 | commit c497325e2c7533b0eef4ba726d4f8f756cfc1f3f | Current Version
+#### v 0.1.0.1 | 15 September 2021 | commit c497325e2c7533b0eef4ba726d4f8f756cfc1f3f
 * Delete unnecessary files and code from *Create React App* boilerplate.
 * Add a remote add origin at `https://github.com/mhsmith321/subnautica-bz-resource-calculator-redux.git`.
 * Copied boilerplate code for this `README.md` file from the old version.
 
-#### v 0.1.0.1 | 15 September 2021 | commit -- | Current Version
+#### v 0.1.0.2 | 15 September 2021 | commit 42fd7c55817dfaec854dadea52e06508d96415f8
 * Installed Redux Toolkit (CLI: `npm install @reduxjs/toolkit`).
 * Installed react-redux (CLI: `npm install react-redux`).
 * Added a directory `/src/redux` to hold *Redux* files.
 * Initialized a `store.js` file in the `/src/redux` directory.
+
+#### v 0.1.0.3 | 15 September 2021 | commit -- | Current Version
+* Created a new directory `/src/pages` with a subdirectory `/Calculator` in it.
+  * Created `Calculator.jsx` and `Calculator.css` files in the `/Calculator` directory.
+* Created a new directory `/src/components`.
+* Tested that the `<Calculator />` page is being imported into `App.js` properly.
+  * A this point the page `Calculator.jsx` is actually more of a component, but I'll refactor later to put the current contents into a component once I have proof of concept.
 
 [Back to Top](#top)
 

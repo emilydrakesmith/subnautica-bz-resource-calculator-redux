@@ -4,17 +4,16 @@ import React from 'react';
 
 
 /******* START: IMPORT LOCAL FILES *******/
-import './App.css';
-import Calculator from './pages/Calculator/Calculator.jsx';
+import './Calculator.css';
 /******* END: IMPORT LOCAL FILES *******/
 
 
-function App() {
-  return (
-    <div className="App">
-      <Calculator />
-    </div>
-  );
+function Calculator() {
+    return (
+        <section>
+                    <h1>Hello, world!</h1>
+        </section>
+    );
 }
 
-export default App;
+export default Calculator;
