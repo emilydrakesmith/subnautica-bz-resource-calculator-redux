@@ -54,12 +54,15 @@ The version history for this app will be organized in a four-digit **W.X.Y.Z** s
 * Added a directory `/src/redux` to hold *Redux* files.
 * Initialized a `store.js` file in the `/src/redux` directory.
 
-#### v 0.1.0.3 | 15 September 2021 | commit -- | Current Version
+#### v 0.1.0.3 | 15 September 2021 | commit 26a6a62006707462263f0bb3188fac2225a31f0f
 * Created a new directory `/src/pages` with a subdirectory `/Calculator` in it.
   * Created `Calculator.jsx` and `Calculator.css` files in the `/Calculator` directory.
 * Created a new directory `/src/components`.
 * Tested that the `<Calculator />` page is being imported into `App.js` properly.
   * A this point the page `Calculator.jsx` is actually more of a component, but I'll refactor later to put the current contents into a component once I have proof of concept.
+
+#### v 0.1.0.3 | 15 September 2021 | commit -- | Current Version
+* Stubbed up hard-coded `.jsx` for one build item in the `Calculator.jsx` file.
 
 [Back to Top](#top)
 

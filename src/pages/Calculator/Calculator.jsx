@@ -11,7 +11,12 @@ import './Calculator.css';
 function Calculator() {
     return (
         <section>
-                    <h1>Hello, world!</h1>
+            <div className='build-item'>
+                <button className='minus-button'>-</button>
+                <div className='build-number'>3</div>
+                <button className='plus-button'>+</button>
+                <p>Enameled Glass</p>
+            </div>
         </section>
     );
 }
